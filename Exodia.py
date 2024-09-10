@@ -7,6 +7,7 @@ import nmap
 import hashlib
 import time
 import subprocess
+import webbrowser
 
 
 #Exodia Menu
@@ -346,16 +347,27 @@ ____________________________
 ''')
         print('Opções:\n[1]MD5\n[2]SHA-1\n[3]SHA-256\n[4]SHA-516\n[x]Back')
         choose = str(input('>>>'))
+        import webbrowser
+
         if choose == "1":
+            webbrowser.open("https://crackstation.net/")
+            mCryptography()
             break
         elif choose == "2":
+            webbrowser.open("https://crackstation.net/")
+            mCryptography()
             break
         elif choose == "3":
+            webbrowser.open("https://crackstation.net/")
+            mCryptography()
             break
         elif choose == "4":
+            webbrowser.open("https://crackstation.net/")
+            mCryptography()
             break
         elif choose == "x":
             mCryptography()
+            break
 
 #Arsenal Menu
 def mArsenal():
